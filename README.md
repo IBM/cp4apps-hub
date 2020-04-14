@@ -1,6 +1,6 @@
 # Certified Stack Hub
 
-This repository hosts a certified Application Stacks Hub containing Application Stacks that have met the certification criteria outlined below.  Stacks can choose to live on this repository or their own location.  
+This repository hosts a certified Application Stacks Hub referencing Application Stacks that have met the certification criteria outlined below. 
 
 ## Certification Criteria
 
