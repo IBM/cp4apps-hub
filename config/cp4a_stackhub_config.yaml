@@ -1,0 +1,16 @@
+# Configuration for CP4A stack hub
+name: CP4A stack hub
+description: Configuration file that builds the CP4A stack hub indexe.
+version: 0.0.1
+stacks:
+  - name: CP4A-default
+    repos:
+      - url: https://github.com/appsody/stacks/releases/download/java-openliberty-v0.2.8/incubator-index.yaml
+        include: 
+          - java-openliberty
+      - url: https://github.com/kabanero-io/collections/releases/download/0.6.4-rc.1/java-microprofile-0.2.26-index.yaml
+        include:
+          - java-microprofile
+image-org:
+image-registry:
+nginx-image-name:
