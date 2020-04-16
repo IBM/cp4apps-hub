@@ -1,6 +1,6 @@
 # Configuration for CP4A stack hub
-name: CP4A stack hub
-description: Configuration file that builds the CP4A stack hub indexe.
+name: CP4A stack hub release preview
+description: Configuration file that builds a preview of the CP4A stack hub index.
 version: 0.0.1
 stacks:
   - name: CP4A-default
