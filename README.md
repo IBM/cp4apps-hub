@@ -5,7 +5,7 @@ This repository hosts a certified Application Stacks Hub referencing Application
 ## Certification Criteria
 
 * A certified Application Stack MUST also be an [Application Stack](https://appsody.dev/docs/stacks/stacks-overview). 
-  * __Note__: if in the future the core structure of a community Application Stack shifts to be something different, based on devFiles, the Certified Application Stacks internal structure must change accordingly.  
+  * __Note__: if in the future the core structure of a community Application Stack shifts to be something different, based on devFiles, the certified Application Stacks internal structure will change accordingly.  
 
 * Stacks SHOULD contain a `stack.yaml` with [custom stack variables](https://appsody.dev/docs/stacks/develop/#custom-stack-variables) to update key versions of the source code if applicable (e.g. POM files) and runtime container image (e.g. Dockerfiles could have `FROM {{.stack.base-deploy-image}}`).
 
