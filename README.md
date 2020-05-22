@@ -24,6 +24,8 @@ appear in all capitals, as shown here.
 
 * Stacks MUST have a mechanism to build a container image used for production-grade deployment of the microservice.  This image MUST be free of compilation tools and unnecessary packages (including the source code).  A common way to achieve this is via a `multi-stage Dockerfile`, but equivalent mechanisms are also acceptable, as long as they yield a production application container image.  
 
+* Stacks MUST contain one or more code templates, which demonstrate best practices and programming models that a stack user can follow to get started.
+
 * The Stacks' development application container image as well as its production application container image MUST comply with the following requirements (note: all of the requirements below are automatically checked via Red Hat's Certification scan.  IBMers can visit [this page](https://playbook.cloudpaklab.ibm.com/getting-started/red-hat-openshift/image-certification/red-hat-certification-portal-and-apis).  Non-IBMers can visit [this page](https://connect.redhat.com/resources/container-certification-overview)).
   * MUST use an Universal Base Image (UBI) or Red Hat Enterprise Linux (RHEL) as the base Operating System of the image and only include RPM packages from the UBI / RHEL repositories.
   
