@@ -3,6 +3,13 @@
 This repository hosts a certified Application Stacks Hub referencing Application Stacks that have met the certification criteria outlined below. 
 
 ## Certification Criteria
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
+"SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this
+document are to be interpreted as described in [BCP
+14](https://tools.ietf.org/html/bcp14)
+[[RFC2119](https://tools.ietf.org/html/rfc2119)]
+[[RFC8174](https://tools.ietf.org/html/rfc8174)] when, and only when, they
+appear in all capitals, as shown here.
 
 * A certified Application Stack MUST also be an [Application Stack](https://appsody.dev/docs/stacks/stacks-overview). 
   * __Note__: if in the future the core structure of a community Application Stack shifts to be something different, based on devFiles, the certified Application Stacks internal structure will change accordingly.  
