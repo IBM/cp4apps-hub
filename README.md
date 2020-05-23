@@ -11,7 +11,7 @@ document are to be interpreted as described in [BCP
 [[RFC8174](https://tools.ietf.org/html/rfc8174)] when, and only when, they
 appear in all capitals, as shown here.
 
-* A certified Application Stack MUST also be an [Application Stack](https://appsody.dev/docs/stacks/stacks-overview), having the necessary files needed by the Application Stack CLI.  Today that is `Appsody`, tomorrow will be `odo` (based on a `devFile`)
+* A certified Application Stack MUST also be an [Application Stack](https://appsody.dev/docs/stacks/stacks-overview), having the necessary files needed to fulfill core scenarios by the architect (Champ) and the developer (Jane).  Today that is based on `Appsody`, tomorrow will be based on `devFile` (odo). 
 
 * Stacks SHOULD contain a `stack.yaml` with [custom stack variables](https://appsody.dev/docs/stacks/develop/#custom-stack-variables) to update key versions of the source code if applicable (e.g. POM files) and runtime container image (e.g. Dockerfiles could have `FROM {{.stack.base-deploy-image}}`).
 
