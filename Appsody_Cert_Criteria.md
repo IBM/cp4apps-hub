@@ -13,7 +13,7 @@ appear in all capitals, as shown here.
 
 ### Stack structure
 
-* A certified Application Stack MUST also be an [Application Stack](https://appsody.dev/docs/stacks/stacks-overview), having the necessary files needed to fulfill core scenarios by the architect (Champ) and the developer (Jane).  
+* A certified Application Stack MUST also be an [Application Stack](https://github.com/IBM/cp4apps-hub/tree/devfile_cert#application-stacks), having the necessary files needed to fulfill core scenarios by the architect (Champ) and the developer (Jane).  
 
 * Stacks SHOULD contain a `stack.yaml`, or equivalent, with [custom stack variables](https://appsody.dev/docs/stacks/develop/#custom-stack-variables) to update key versions of the source code if applicable (e.g. POM files) and runtime container image (e.g. Dockerfiles could have `FROM {{.stack.base-deploy-image}}`).
 

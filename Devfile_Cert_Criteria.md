@@ -13,7 +13,7 @@ appear in all capitals, as shown here.
 
 ### Stack structure
 
-* A certified Application Stack MUST also be an [Application Stack](), having the necessary files needed to fulfill core scenarios by the architect (Champ) and the developer (Jane). ** TO DO - Add link to a document that describes an application stack**
+* A certified Application Stack MUST also be an [Application Stack](https://github.com/IBM/cp4apps-hub/tree/devfile_cert#application-stacks), having the necessary files needed to fulfill core scenarios by the architect (Champ) and the developer (Jane).
 
 * Stacks MUST have a deployment manifest defined in the devfile, using the `alpha.deployment-manifest` property ,that specifies the deployment of its application runtime container, using either:
   * The Runtime Component Operator
