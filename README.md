@@ -74,7 +74,7 @@ appear in all capitals, as shown here.
     * product support (L3)
     * include off-hours for critical situations
         
-* Engineers performing the work MUST onboard into the support platform.
+* IBM Engineers performing the work above MUST onboard into the support platform.
    * IBM-internal link to what that entails: https://github.ibm.com/IBMCloudPak4Apps/icpa-support/wiki/L3-onboarding
    * One-of:
      * An entry in https://ibm.biz/WASQueue detailing how L3 can be contacted in a formal support platform (such as the IBM Support Community)
