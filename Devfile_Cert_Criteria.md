@@ -1,6 +1,6 @@
 # Certified Stack Hub
 
-This document describes the criteria a Devfile application stack must implement to be considered a certified application stack.
+This document describes the criteria a Devfile application stack must implement to be considered a certified application stack based on version 2.0 of the [devfile specification](https://devfile.github.io/devfile/index.html).
 
 ## Certification Criteria
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
@@ -15,15 +15,19 @@ appear in all capitals, as shown here.
 
 * A certified Application Stack MUST also be an [Application Stack](https://github.com/IBM/cp4apps-hub/tree/devfile_cert#application-stacks), having the necessary files needed to fulfill core scenarios by the architect (Champ) and the developer (Jane).
 
+* A certified Apllication Stack MUST also ba a [devfile](https://odo.dev/file-reference/).
+
 * Stacks MUST have a deployment manifest defined in the devfile, using the `alpha.deployment-manifest` property ,that specifies the deployment of its application runtime container, using either:
   * The Runtime Component Operator
   * A runtime-specific Operator with equivalent functionality, such as the Open Liberty Operator
+
+* Stacks MUST reference a Dockerfile for building a production image, using the `alpha.build-dockerfile` property.
 
 * Stacks MUST contain one or more starter projects, which demonstrate best practices and programming models that a stack user can follow to get started.  
 
 ### Capabilities
 
-* Stacks MUST provide mechanisms to execute "inner loop" functions used for developing, debugging and running (non-production) the microservice.  A common way is via a `Dockerfile`, but equivalent mechanisms are also acceptable, as long as they yield a development application container image.  
+* Stacks must provide mechanisms to execute "inner loop" functions used for developing, debugging, testing and running (non-production) the microservice along with a development container image in which the actions are executed 
 
 ### Containers
 
