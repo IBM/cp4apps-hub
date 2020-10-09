@@ -3,7 +3,7 @@
 This repository hosts a certified Application Stacks Hub referencing Application Stacks that have met the certification criteria in the links referenced below.
 
 [Certification criteria for Appsody application stacks](./Appsody_Cert_Criteria.md)  
-[Certification criteria for Devfile application stacks](./Devfile_Cert_Criteria.md)
+[Proposed Certification criteria for Devfile application stacks](./Devfile_Cert_Criteria.md)
 
 ## Application Stacks
 
