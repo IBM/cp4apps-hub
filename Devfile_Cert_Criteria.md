@@ -1,3 +1,5 @@
+## Note CP4Apps stack hub has been deprecated. 
+
 # Proposed Certified Stack Hub
 
 This document describes a proposal for the criteria a Devfile application stack must implement to be considered a certified application stack based on version 2.0 of the [devfile specification](https://devfile.github.io/devfile/index.html).
