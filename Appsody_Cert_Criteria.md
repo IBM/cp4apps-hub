@@ -1,3 +1,5 @@
+## Note: Appsody applications stacks have been deprecated and will be archived soon. 
+
 # Certification criteria for Appsody application stacks
 
 This document describes the criteria an Appsody application stack must implement to be considered a certified application stack.
