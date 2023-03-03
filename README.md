@@ -1,6 +1,6 @@
 # Certified Stack Hub
 
-## This repo archived on April 30, 2023. The CP4Apps Stack hub application has been discontinued. 
+## This repo will be archived on April 30, 2023. The CP4Apps Stack hub application has been discontinued. 
 
 
 This repository hosts a certified Application Stacks Hub referencing Application Stacks that have met the certification criteria in the links referenced below.
